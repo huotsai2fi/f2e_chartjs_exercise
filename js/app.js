@@ -1,5 +1,5 @@
-import 'dotenv/config';
 import '@babel/polyfill';
+import 'dotenv/config';
 import getWeatherData from './data/index.js';
 import { lineChart } from './my_chart/index.js';
 
