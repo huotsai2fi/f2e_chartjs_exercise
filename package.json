@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url 'https://github.com/huotsai2fi/f2e_chartjs_exercise.git'",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://huotsai2fi.github.io/f2e_chartjs_exercise/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -17,8 +17,8 @@
     "axios": "^0.26.0",
     "chart.js": "^3.7.1",
     "data": "^0.6.1",
-    "dotenv": "^16.0.0",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "regenerator-runtime": "^0.13.9"
   },
   "type": "module",
   "devDependencies": {

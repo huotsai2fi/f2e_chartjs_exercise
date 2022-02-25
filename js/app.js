@@ -1,5 +1,4 @@
-import '@babel/polyfill';
-// import 'dotenv/config';
+import 'regenerator-runtime/runtime';
 import getWeatherData from './data/index.js';
 import { lineChart } from './my_chart/index.js';
 
